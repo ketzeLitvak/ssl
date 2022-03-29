@@ -1,0 +1,2 @@
+#Ignora la carpeta con la configuración del C standard
+.vscode
