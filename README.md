@@ -11,4 +11,4 @@
 - **Apellido:** Litvak
 
 
-![alt text](http://assets.stickpng.com/images/580b57fcd9996e24bc43c4bd.png)
+![alt text](https://www.enter.co/wp-content/uploads/2020/12/Programacion-codigo-768x432.jpg)
