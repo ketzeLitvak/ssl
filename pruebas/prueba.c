@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "./ketze/facilidades.c"
+#include "../ketze/facilidades.c"
 
 int main() {
     frame("Prueba :D");
