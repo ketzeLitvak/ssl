@@ -1,10 +1,7 @@
-#include <stdio.h>
-#include "./stack.h"
-#include "./scanner.h"
-#include <math.h>
-
-#define MAXOP 100 /* max size of operand or operator */
-#define NUMBER '0' /* signal that a number was found */
+#include <stdio.h> /* for printf() */
+#include "./stack.h" /* for push() && pop() */
+#include "./scanner.h" /* for GetNextToken() */
+#include <math.h> /* for fmod() */
 
 int main() {
     struct Token token;

@@ -1,9 +1,11 @@
-#include <ctype.h>
-#include <stdio.h>
+#include <ctype.h> /* for isdigit() */
+#include <stdio.h> /* for getchar && ungetc */
 #include <stdlib.h> /* for atof() */
+#include "./scanner.h" /* GetNextToken() declaration */
 
-#include "./scanner.h"
+#define MAXOP 100 /* max size of lexeme */
 
+/* Returns true if is possible to read another token, the read token is stored in t. */
 int GetNextToken (struct Token *t) {
     int i = 0;
     char lexeme[MAXOP];
