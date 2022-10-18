@@ -5,7 +5,7 @@ typedef enum TokenType TokenType;
 
 /* scanner known types */
 enum TokenType {
-    Number,
+    Number = 1,
     Addition = '+',
     Multiplication = '*',
     Substraction = '-',
